@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E25B2D9123C5D8B40038482C /* Movie+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = E25B2D8F23C5D8B40038482C /* Movie+CoreDataClass.swift */; };
+		E25B2D9223C5D8B40038482C /* Movie+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = E25B2D9023C5D8B40038482C /* Movie+CoreDataProperties.swift */; };
 		E2D693DB23C4CCA000D95C8B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2D693DA23C4CCA000D95C8B /* AppDelegate.swift */; };
 		E2D693DD23C4CCA000D95C8B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2D693DC23C4CCA000D95C8B /* SceneDelegate.swift */; };
 		E2D693E023C4CCA000D95C8B /* CoreDataProjectSwiftUI.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E2D693DE23C4CCA000D95C8B /* CoreDataProjectSwiftUI.xcdatamodeld */; };
@@ -17,6 +19,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E25B2D8F23C5D8B40038482C /* Movie+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "Movie+CoreDataClass.swift"; path = "CoreDataProjectSwiftUI/Movie+CoreDataClass.swift"; sourceTree = "<group>"; };
+		E25B2D9023C5D8B40038482C /* Movie+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "Movie+CoreDataProperties.swift"; path = "CoreDataProjectSwiftUI/Movie+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		E2D693D723C4CCA000D95C8B /* CoreDataProjectSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoreDataProjectSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E2D693DA23C4CCA000D95C8B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E2D693DC23C4CCA000D95C8B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -42,6 +46,8 @@
 		E2D693CE23C4CCA000D95C8B = {
 			isa = PBXGroup;
 			children = (
+				E25B2D8F23C5D8B40038482C /* Movie+CoreDataClass.swift */,
+				E25B2D9023C5D8B40038482C /* Movie+CoreDataProperties.swift */,
 				E2D693D923C4CCA000D95C8B /* CoreDataProjectSwiftUI */,
 				E2D693D823C4CCA000D95C8B /* Products */,
 			);
@@ -152,6 +158,8 @@
 				E2D693DB23C4CCA000D95C8B /* AppDelegate.swift in Sources */,
 				E2D693E023C4CCA000D95C8B /* CoreDataProjectSwiftUI.xcdatamodeld in Sources */,
 				E2D693E223C4CCA000D95C8B /* ContentView.swift in Sources */,
+				E25B2D9123C5D8B40038482C /* Movie+CoreDataClass.swift in Sources */,
+				E25B2D9223C5D8B40038482C /* Movie+CoreDataProperties.swift in Sources */,
 				E2D693DD23C4CCA000D95C8B /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
