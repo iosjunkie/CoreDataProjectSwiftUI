@@ -11,11 +11,13 @@ import SwiftUI
 
 struct ContentView: View {
     @Environment(\.managedObjectContext) var moc
-    @FetchRequest(entity: Wizard.entity(), sortDescriptor: []) var wizards: FetchedResults<Wizard>
-    @FetchRequest(entity: Ship.entity(), sortDescriptor: [], predicate: [
-        NSPredicate(format: "universe == 'Star Wars'")
-    ]) var ships: FetchedResults<Ship>
-    @FetchRequest(entity: Country.entity(), sortDescriptor: []) var countries: FetchedResults<Country>
+//    @FetchRequest(entity: Wizard.entity(), sortDescriptor: []) var wizards: FetchedResults<Wizard>
+//    @FetchRequest(entity: Ship.entity(), sortDescriptor: [], predicate: [
+//        NSPredicate(format: "universe == 'Star Wars'")
+//    ]) var ships: FetchedResults<Ship>
+    @FetchRequest(entity: Country.entity(), sortDescriptor: [
+        NSPredicate(format: "shortName == %@", "UK")
+    ]) var countries: FetchedResults<Country>
     @State var lastNameFilter = "A"
     
     var body: some View {
